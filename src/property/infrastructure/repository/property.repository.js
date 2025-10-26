@@ -1,0 +1,24 @@
+// Abstract repository class that provides a base for all repository implementations
+class PropertyRepository {
+  async save(property) {
+    throw new Error('Method not implemented');
+  }
+
+  async findById(id) {
+    throw new Error('Method not implemented');
+  }
+
+  async findAll(filters = {}) {
+    throw new Error('Method not implemented');
+  }
+
+  async update(id, property) {
+    throw new Error('Method not implemented');
+  }
+
+  async delete(id) {
+    throw new Error('Method not implemented');
+  }
+}
+
+module.exports = PropertyRepository;

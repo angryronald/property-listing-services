@@ -1,0 +1,18 @@
+{
+  "testEnvironment": "node",
+  "collectCoverageFrom": [
+    "src/**/*.js",
+    "!src/**/*.test.js",
+    "!src/**/__tests__/**"
+  ],
+  "coverageReporters": [
+    "text",
+    "lcov",
+    "html"
+  ],
+  "testMatch": [
+    "**/__tests__/**/*.test.js",
+    "**/?(*.)+(spec|test).js"
+  ],
+  "testTimeout": 5000
+}
